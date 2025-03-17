@@ -7,7 +7,7 @@ Module for class Square
 class Square:
     """Class Square"""
     def __init__(self, s=0):
-        self.size(s)
+        self.size = s
 
     @property
     def size(self):
