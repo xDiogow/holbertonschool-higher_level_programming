@@ -3,8 +3,7 @@
 Module for class Square
 """
 
+
 class Square:
-    """
-    Class Square
-    """
+    """Class Square"""
     pass
