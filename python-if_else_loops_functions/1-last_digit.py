@@ -12,4 +12,6 @@ elif last_digit == 0:
     text = 'and is 0'
 elif last_digit < 6 and last_digit != 0:
     text = 'and is less than 6 and not 0'
+else:
+    raise TypeError()
 print(f'Last digit of {number} is {last_digit} {text}')
