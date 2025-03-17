@@ -6,8 +6,8 @@ Module for class Square
 
 class Square:
     """Class Square"""
-    def __init__(self, s=0):
-        self.size = s
+    def __init__(self, size=0):
+        self.size = size
 
     @property
     def size(self):
