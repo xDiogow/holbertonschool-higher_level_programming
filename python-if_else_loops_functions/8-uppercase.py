@@ -7,5 +7,5 @@ def uppercase(str):
             c_char = chr(ord(char) - 32)
         else:
             c_char = char
-        print('{0}'.format(c_char))
+        print('{0}'.format(c_char), end='')
     print('{0}'.format('\n'))
