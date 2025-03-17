@@ -3,4 +3,4 @@ for i in range(0, 100):
     if i != 99:
         print('{0:02}, '.format(i), end='')
     else:
-        print('{0:02}\n'.format(i))
+        print('{0:02}\n'.format(i), end='')
