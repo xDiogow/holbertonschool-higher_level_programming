@@ -23,7 +23,7 @@ def matrix_divided(matrix, div):
         raise TypeError("div must be a number")
 
     if div == 0:
-        raise ZeroDivisionError("divison by 0")
+        raise ZeroDivisionError("divison by zero")
 
     new_matrix = []
     for row in matrix:
