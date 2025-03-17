@@ -3,6 +3,8 @@
 Module for class Square
 """
 
+
 class Square:
     """Class Square"""
-    pass
+    def __init__(self, size):
+        self.__size = size
