@@ -4,6 +4,12 @@ This module defines a function that prints a name.
 """
 
 def say_my_name(first_name, last_name=""):
+    """
+    Prints the first name and last name.
+    :param first_name: First name.
+    :param last_name: Last name.
+    :return: Nothing
+    """
     if isinstance(first_name, str):
         raise TypeError("first_name must be a string")
 
