@@ -13,5 +13,5 @@ def text_indentation(text):
         raise TypeError('text must be a string')
 
 
-    for line in text.splitlines():
+    for line in text.split('\n'):
         print(line, end='')
