@@ -16,4 +16,4 @@ def text_indentation(text):
         text = text.replace(char, f'{char}\n')
 
     for line in text.split('\n'):
-        print(line, end='')
+        print(line)
