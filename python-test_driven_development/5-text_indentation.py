@@ -14,4 +14,4 @@ def text_indentation(text):
 
 
     for line in text.splitlines():
-        print(line)
+        print(line, end='')
