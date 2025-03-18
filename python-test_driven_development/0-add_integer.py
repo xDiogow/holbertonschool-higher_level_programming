@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-THis module defines the add_integer function
+This module defines the add_integer function
 """
 
 
