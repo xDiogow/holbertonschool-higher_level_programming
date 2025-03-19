@@ -1,1 +1,1 @@
-SELECT * FROM sys.databases;
+SHOW DATABASES;
