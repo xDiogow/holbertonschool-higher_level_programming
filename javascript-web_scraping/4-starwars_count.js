@@ -13,9 +13,11 @@ request(url, function (error, response, body) {
 
   let amount = 0;
   for (const movie of jsonResponse.results) {
-    if (movie.characters.endsWith('/people/18/')) {
-      amount++;
-      break;
+    for (const character of movie.characters) {
+      if (character.endsWith('/18/')) {
+        amount++;
+        break;
+      }
     }
   }
   console.log(amount);
