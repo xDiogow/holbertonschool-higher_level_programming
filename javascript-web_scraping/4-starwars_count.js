@@ -13,8 +13,9 @@ request(url, function (error, response, body) {
 
   let amount = 0;
   for (const movie of jsonResponse.results) {
-    if (movie.characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
+    if (movie.characters.endsWith('/people/18/')) {
       amount++;
+      break;
     }
   }
   console.log(amount);
