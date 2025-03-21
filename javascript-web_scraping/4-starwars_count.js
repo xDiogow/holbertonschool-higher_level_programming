@@ -12,11 +12,9 @@ request(url, function (error, response, body) {
   const jsonResponse = JSON.parse(body);
 
   let amount = 0;
-  for (const result of jsonResponse.results) {
-    for (const character of result.characters) {
-      if (character === 'https://swapi-api.hbtn.io/api/people/18/') {
-        amount += 1;
-      }
+  for (const movie of jsonResponse.results) {
+    if (movie.characters.includes('https://swapi-api.hbtn.io/api/people/18/')) {
+      amount++;
     }
   }
   console.log(amount);
