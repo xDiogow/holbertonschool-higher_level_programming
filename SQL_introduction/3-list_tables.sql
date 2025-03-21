@@ -1,2 +1,2 @@
 -- Get all tables available inside a database
-SELECT table_name FROM mysql.information_schema.tables;
+SELECT table_name FROM information_schema.tables;
