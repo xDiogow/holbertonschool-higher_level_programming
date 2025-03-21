@@ -1,7 +1,8 @@
 #!/usr/bin/node
 
+const request = require('request');
 const url = process.argv[1];
 
-fetch(url).then(res => {
-  console.log('code:' + res.status);
+request(url, function (error, response, body) {
+    console.log(response.statusCode);
 });
